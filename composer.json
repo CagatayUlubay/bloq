@@ -1,0 +1,27 @@
+{
+  "authors": [
+    {
+      "name": "Cagatay Ulubay",
+      "email": "caga.ulu@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "caga.ulu@gmail.com"
+  },
+  "require": {
+    "monolog/monolog": "^1.24",
+    "doctrine/orm": "^2.6",
+    "vlucas/phpdotenv": "^3.3",
+    "phpunit/phpunit": "^7.5",
+    "symfony/console": "^4.2"
+  },
+  "require-dev": {
+
+  },
+  "autoload": {
+    "psr-4": {
+      "CagatayUlubay\\": "src/"
+    }
+  }
+}
