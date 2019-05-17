@@ -1,0 +1,13 @@
+# Ignore Vendors directory
+/vendor
+
+# Ignore configuration directories
+/.idea
+/.git
+
+# Ignore all log files
+/logs/
+
+# Ingore non .dist files
+.env
+phpunit.xml
